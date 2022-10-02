@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Approaches to the Conservation of Functional Artifacts</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header style="background: rgb(172, 43, 55);">
+        <h1 style="padding: 20px;color: rgb(255,255,255);">Approaches to the Conservation of Functional Artifacts<br></h1>
+    </header>
+    <div class="container" style="margin: 20px;width: 90%;">
+        <div class="row">
+            <div class="col-md-12 col-xl-12">
+                <h2>Search Conservation Approaches<br></h2>
+                <input type="text" id="text-search" oninput="searchText()" placeholder="Match word with any field in the database..." style="width: 100%;font-size: 13px;border-radius: 3px;border: 1px solid var(--bs-gray-400);padding: 5px;">
+                <div class="dropdown"><button class="btn btn-secondary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="margin-top: 10px;margin-bottom: 10px;">Conservator Type</button>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Private</a><a class="dropdown-item" href="#">Museum</a></div>
+                </div>
+                <div class="dropdown"><button class="btn btn-secondary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="margin-top: 10px;margin-bottom: 10px;">Artifact Type</button>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Watchmaking</a><a class="dropdown-item" href="#">Tram</a><a class="dropdown-item" href="#">Sculptures</a><a class="dropdown-item" href="#">Kinetic Art</a></div>
+                </div>
+                <p><strong>Show Fields</strong></p>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">General Museum Info</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Preventative Measures</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Artifact Onboarding</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5">Conservation States</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4">Materials</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Conservation Methods</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">Decision Making</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">Replacement Policy</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">Post-restoration</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-10">Knowledge Sharing</label></div>
+            </div>
+        </div>
+        <div class="row" style="margin: 30px -12px 5px -12px;">
+            <div class="col-7 col-md-9 col-xl-9 d-flex d-xl-flex justify-content-xl-start align-items-xl-center">
+                <p id="num-conservation-cards" style="font-size: 22px;"><strong>2 results</strong></p>
+            </div>
+            <div class="col d-flex d-xl-flex justify-content-end justify-content-xl-end align-items-xl-center"><button class="btn btn-secondary" type="button" style="background: var(--bs-gray-600);">Print All Results</button></div>
+        </div>
+        <div class="row">
+            <div class="col" id="conservation-cards">
+            </div>
+        </div>
+    </div>
+    <footer style="background: rgb(172, 43, 55);">
+        <div class="container" style="padding: 10px;">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center"><strong><span style="color: rgb(255, 255, 255);">Project supported by</span></strong></p>
+                </div>
+            </div>
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-4 d-flex d-lg-flex justify-content-center align-items-md-center align-items-xl-center" style="padding: 5px;"><img class="img-fluid" src="assets/img/empa.png" alt="Logo of the Swiss Federal Laboratories for Material Science and Technology (Empa)"></div>
+                <div class="col-md-4 d-flex d-lg-flex justify-content-center align-items-md-center align-items-xl-center" style="padding: 5px;"><img class="img-fluid" src="assets/img/he-arc-cr-removebg-preview.png" alt="Logo of the Haute École Arc of Conservation-restauration (HE-Arc CR)"></div>
+                <div class="col-md-4 d-flex d-lg-flex justify-content-center align-items-md-center align-items-xl-center" style="padding: 5px;"><img class="img-fluid" src="assets/img/wpi_logo_white.fdc0825c.png" alt="Logo of Worcester Polytechnic Institute (WPI)"></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
