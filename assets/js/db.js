@@ -1,8 +1,10 @@
-[
+let db = [
     {
         "artifact_onboarding": "- Good if the clock/watch still ticks\n- Buy any missing parts (or make, etc)\n- Consult with astronomer for accuracy calculations (especially for astronomical clocks)\n- Focus on stabilization\n\t- Try to get the mechanism complete and secured, not running\n- If needed, replacement parts will be built using historical methods\n",
+        "artifact_type": "Watchmaking",
         "conservation_methods": "- Late 1970’s\n\t- Quartz watches w/ battery\n\t\t- Polymers and ceramics that are hard to preserve\n\t\t\t- Often undergo irreversible chemical changes over time\n- Dangerous materials sometimes used in older watches (governed by regulatory rules) \n\t- Radioactivity (Radium dials, etc.)\n\t\t- Require specially-designed storage space covered by regulations\n\t- Mercury (used for weighting components)\n\t- Lead, Arsenic, etc. (used in paints/ enamels)\n\t\t- Many restorers prefer to use these paints because of the more vibrant colors\n\t\t- Generally minimal concern because of the small relative volume\n- Polymers\n\t- Several degrees of degradation\n",
         "conservation_states": "- Not all are functioning(or functional)\n\t- Some were never accurate when new\n- Some are used for research and can be activated on request with a very good reason\n\t- Same with patents– some are used to clear up patent disputes\n\t- Very technical ones/ unique ones are in working order for study\n",
+        "conservator_type": "Museum",
         "decision_making": "- Follow ICoM ethics rules\n\t- As little work/intervention as possible\n- Generally depend on money\n\t- Museum is donation-supported (other than high-level staff, who are paid by the city)\n\t\t- Results in creative fund-raising (designing and selling own watch to finance the restoration)\n- Focus on authenticity\n- What about activation?\n\t- Decide collectively (between all players at the museum (~12 or so))\n\t\t- Try to have 1 or 2 on display that are active",
         "general_info": "The collection was started in 1865 as a part of the watchmaking school\n- It is the most complete/biggest collection of watches/clocks in the world\n- 4,000 pieces on exhibit and 2 large reserves\n- Open to the public 1902\n- Added to International Consortium of Museums 1967\n- Sets ethics rules for preservation\n- First excavated/underground museum in Europe\n- Defined new museum ideals/goals\n- Be open for research\n- Show off restoration practices by having the restoration labs in a ‘fishbowl’ visible to public\nTraining:\n- All restorers train as a:\n- Watchmaker for 5 yrs\n- Restorer for 2 yrs\n- Engineer for 2 yrs",
         "interview_date": "12 September 2022",
@@ -17,8 +19,10 @@
     },
     {
         "artifact_onboarding": "- Many older trams were disposed of or forgotten because the science of restoration and conservation was not commonplace\n - Sometimes found in warehouses in places far from where they came\n- First step of conservation is to put the item in a safe place (warehouse, museum)\n - Vandalism and elemental exposure is common, and trams must be scrapped if too affected\n- When an old mechanism is received, it is first completed. Any missing parts are either recreated, or the original factory is contacted to make it.\n - Companies will frequently help make parts for the publicity\n - The museum tries to find copies of every piece\n - The cost of buying original pieces is sometimes not feasible\n",
+        "artifact_type": "Tram",
         "conservation_methods": "- When an old mechanism is received, it is first completed. Any missing parts are either recreated, or the original factory is contacted to make it.\n - Companies will frequently help make parts for the publicity\n - The museum tries to find copies of every piece\n - The cost of buying original pieces is sometimes not feasible\n- Mechanisms that are constantly used could be hardy; sometimes cleaning is the only conservation required\n - Mechanisms more reliable than the current digital/ all electric system\n  - Only major issues is the occasional replacement of contacts\n- Visual inspections are very common and are done by specialists. Only once a mechanism shows wear is restoration considered\n - For example, they know how big a particular part should be, so they can judge the amount of wear by the decrease in size (also how long until it is non-functional, in the case of a contact, this would be when it no longer makes consistent contact where it is supposed to)\n - If a tram is run, it wears more/ needs more maintenance. So it’s a constant balance\n - Trams have to be run to prevent the bearings from flattening\n- When an object is made from different materials, it is desirable to modify the object so that later conservation procedures are easier.\n - Generally materials are chosen to minimize wear",
         "conservation_states": null,
+        "conservator_type": "Museum",
         "decision_making": "- The cost of restoration and conservation procedures is a limiting factor and often one of the first steps.\n- The company always intends for the tram to remain in a state where they can move\n - however, some owners use the historic trams for other purposes(a bar) and want them made static\n- Tram conservation decisions go through\n - the people with the money (museum benefactors/donors, owners, etc.)\n - the requests of the people actually maintaining the trams-what are they looking to do?\n - the tram/museum consortium– are the changes ‘ethical’ on a preservation standpoint\n - For more expensive projects, museums can “apply for a grant” that goes towards the protection of the object (note– it is not a grant system, but it is similar)\n",
         "general_info": "",
         "interview_date": "7 September 2022",
@@ -33,8 +37,10 @@
     },
     {
         "artifact_onboarding": " - Verification that it is a Tinguely sculpture\n - Old videos/ photographs of motion\n  - Informs original movement\n - Ensure there are no loose parts that impede the movement\n - Takes a long time to 'get to know' the piece\n  - What pieces are prone to wear, what it should sound like, etc.\n - Look at motor type\n  - WWII-1950's motors used different voltage/frequency\n   - Changes how the motor can be run to avoid burnout\n",
+        "artifact_type": "Kinetic Art",
         "conservation_methods": "Conservators use custom methods made specifically for the artifact of interest.",
         "conservation_states": " - Try to keep all artifacts on display running\n  - Acknowledge that the artworks need a break occasionally\n - Follow functional, functioning, operational categorization\n  - Some pieces have too much risk of damage if run \n  - Try to get objects as close as possible to a running state\n",
+        "conservator_type": "Museum",
         "decision_making": " - Conservators have a discussion, and frequently disagree\n  - Every object is different, so methods are also different\n  - Focus on what is best for the artwork/ the future\n  - Try to combine multiple points of view and find compromises\n  - Goal is always to minimize intervention\n  - Occasionally, there are time/event deadlines\n   - Conservators have the power to say that they cannot be met\n   - Other museums try to only restore for upcoming shows\n    - don't think ahead and don't give a lot of time to conduct the restorations\n - Try to take Tinguely's words/ beliefs into account\n  - Contradictions\n  - Determined that towards the end of life, he knew his 'greatness', so wanted to preserve his works for the future\n",
         "general_info": " ",
         "interview_date": "29 September 2022",
@@ -49,8 +55,10 @@
     },
     {
         "artifact_onboarding": "They usually receive artifacts from the Tinguely Museum in Basel.",
+        "artifact_type": "Kinetic Art",
         "conservation_methods": "Conservators use custom methods made specifically for the artifact of interest.",
         "conservation_states": "-Not currently used, but think it would be a good idea",
+        "conservator_type": "Museum",
         "decision_making": "-Conservator recommendations\n\t-museum director has final say",
         "general_info": " ",
         "interview_date": "28 September 2022",
@@ -65,8 +73,10 @@
     },
     {
         "artifact_onboarding": "-Visual inspection\n-Get watch to working order, using traditional/classical methods\n",
+        "artifact_type": "Watchmaking",
         "conservation_methods": "-Dozens, used by professional watchmakers\n-Avoidance of high-tech intervention methods\n\t-new hires trained on classical methods\n",
         "conservation_states": "-Restoration vs. Reparation\n\t-Restoration:\n\t\t-keep as many original parts as possible\n\t\t-takes a long time\n\t\t-division of the marketing department\n\t-Reparation:\n\t\t-Watch servicing\n\t\t\t-cleaning, oiling, etc. every 2-5 yrs.\n\t\t-Get watch to work correctly and tell time accurately\n",
+        "conservator_type": "Museum",
         "decision_making": "-Conservators, historians, etc. collaborate inside workshop on proper conservation\n\t-all watches Pre-1951 are unique/ hand-made, so all are different and may require different procedures\n",
         "general_info": "Audemars Piguet is a famous luxury watchmaking company founded in 1875 that maintains a collection of their watches, and runs a repair service for the owners of their watches. They made many innovations in the field of watchmaking, including incredibly thin movements and large numbers of complications.\n",
         "interview_date": "23 September 2022",

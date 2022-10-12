@@ -17,30 +17,40 @@
             <div class="col-md-12 col-xl-12">
                 <h2>Search Conservation Approaches<br></h2>
                 <input type="text" id="text-search" oninput="searchText()" placeholder="Match word with any field in the database..." style="width: 100%;font-size: 13px;border-radius: 3px;border: 1px solid var(--bs-gray-400);padding: 5px;">
-                <div class="dropdown"><button class="btn btn-secondary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="margin-top: 10px;margin-bottom: 10px;">Conservator Type</button>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Private</a><a class="dropdown-item" href="#">Museum</a></div>
-                </div>
-                <div class="dropdown"><button class="btn btn-secondary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="margin-top: 10px;margin-bottom: 10px;">Artifact Type</button>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Watchmaking</a><a class="dropdown-item" href="#">Tram</a><a class="dropdown-item" href="#">Sculptures</a><a class="dropdown-item" href="#">Kinetic Art</a></div>
-                </div>
+
+                <label for="cars">Conservator Type:</label>
+                <select name="conservator_type" id="conservator_type">
+                    <option value="All">All</option>
+                    <option value="Private">Private</option>
+                    <option value="Museum">Museum</option>
+                </select>
+                <br/>
+                <label for="cars">Artifact Type:</label>
+                <select name="artifact_type" id="artifact_type">
+                    <option value="All">All</option>
+                    <option value="Watchmaking">Watchmaking</option>
+                    <option value="Tram">Tram</option>
+                    <option value="Kinetic Art">Kinetic Art</option>
+                </select>
+                <br/>
                 <p><strong>Show Fields</strong></p>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">General Museum Info</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Preventative Measures</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Artifact Onboarding</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5">Conservation States</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4">Materials</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Conservation Methods</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">Decision Making</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">Replacement Policy</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">Post-restoration</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-10">Knowledge Sharing</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" checked><label class="form-check-label" for="formCheck-1">General museum information</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2" checked><label class="form-check-label" for="formCheck-2">Conservation decision making</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3" checked><label class="form-check-label" for="formCheck-3">Preventive conservation strategies</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4" checked><label class="form-check-label" for="formCheck-4">Acquisition of artifacts</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5" checked><label class="form-check-label" for="formCheck-5">Materials of the artifacts</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6" checked><label class="form-check-label" for="formCheck-6">Conservation methods</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7" checked><label class="form-check-label" for="formCheck-7">Conservation state</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8" checked><label class="form-check-label" for="formCheck-8">Artifact's parts replacement policy</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9" checked><label class="form-check-label" for="formCheck-9">Long-term storage and documentation</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10" checked><label class="form-check-label" for="formCheck-10">Knowledge sharing of conservation methods</label></div>
             </div>
         </div>
         <div class="row" style="margin: 30px -12px 5px -12px;">
             <div class="col-7 col-md-9 col-xl-9 d-flex d-xl-flex justify-content-xl-start align-items-xl-center">
-                <p id="num-conservation-cards" style="font-size: 22px;"><strong>2 results</strong></p>
+                <p id="num-conservation-cards" style="font-size: 22px;"><strong>0 results</strong></p>
             </div>
-            <div class="col d-flex d-xl-flex justify-content-end justify-content-xl-end align-items-xl-center"><button class="btn btn-secondary" type="button" style="background: var(--bs-gray-600);">Print All Results</button></div>
+            <!-- <div class="col d-flex d-xl-flex justify-content-end justify-content-xl-end align-items-xl-center"><button class="btn btn-secondary" type="button" style="background: var(--bs-gray-600);">Print All Results</button></div> -->
         </div>
         <div class="row">
             <div class="col" id="conservation-cards">
@@ -62,6 +72,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/db.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
